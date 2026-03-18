@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh Mục Siêu Tươi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        body {
+            /* Background gradient rực rỡ từ hồng sang teal */
+            background: linear-gradient(-45deg, #ff007f, #00e5ff, #ff007f, #00e5ff);
+            background-size: 400% 400%;
+            animation: gradientBG 10s ease infinite;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            color: white;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+        }
+
+        /* Animation cho background chạy */
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .category-container {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            border: 2px solid rgba(255,255,255,0.2);
+        }
+
+        h1 {
+            font-family: 'Pacifico', cursive;
+            font-size: 3.5rem;
+            text-align: center;
+            margin-bottom: 30px;
+            color: #fff;
+            /* Hiệu ứng chữ neon đa màu rực rỡ */
+            text-shadow:
+                0 0 10px #ff007f,
+                0 0 20px #ff007f,
+                0 0 30px #00e5ff,
+                0 0 40px #00e5ff,
+                0 0 70px #ff007f,
+                0 0 80px #ff007f;
+            animation: pulse 1.5s ease-in-out infinite alternate;
+        }
+
+        /* Animation cho chữ neon nhấp nháy */
+        @keyframes pulse {
+            from {
+                text-shadow: 0 0 10px #ff007f, 0 0 20px #ff007f, 0 0 30px #00e5ff, 0 0 40px #00e5ff;
+            }
+            to {
+                text-shadow: 0 0 20px #ff007f, 0 0 30px #ff007f, 0 0 40px #00e5ff, 0 0 50px #00e5ff, 0 0 80px #ff007f, 0 0 100px #ff007f;
+            }
+        }
+
+        .category-list {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .category-item {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            border: 1px solid rgba(255,255,255,0.1);
+            font-weight: bold;
+        }
+
+        /* Màu neon khi di chuột qua */
+        .category-item:hover {
+            transform: translateY(-10px) scale(1.05);
+            background: rgba(255, 255, 255, 0.3);
+            box-shadow:
+                0 5px 15px rgba(255, 0, 127, 0.7),
+                0 0 30px rgba(0, 229, 255, 0.5);
+            color: #ffcc00; /* Đổi màu chữ khi hover cho nổi bật hơn */
+        }
+
+        /* Tạo dải màu cầu vồng khi hover */
+        .category-item::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+            transition: 0.5s;
+        }
+
+        .category-item:hover::before {
+            left: 100%;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-10 category-container">
+            <h1 class="mb-5">Danh Mục Lấp Lánh</h1>
+
+            <ul class="category-list">
+                {% for category in categories %}
+                    <li class="category-item">
+                        <span class="d-block fs-4 text-white">{{ category }}</span>
+                        <span class="d-block text-warning mt-2 fs-6">✨ Sáng Rực ✨</span>
+                    </li>
+                {% else %}
+                    <li class="col-12 text-center text-muted fs-4">Đang chờ dữ liệu tươi tắn từ API...</li>
+                {% endfor %}
+            </ul>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
