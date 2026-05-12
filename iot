@@ -1,0 +1,302 @@
+ÔN TẬP 50 CÂU MÔN MẠNG KẾT NỐI VẠN VẬT (IoT)
+Bài thi hết học phần - Ngày 26/05/2022
+Câu 1: Đâu không phải là một tính năng của CoAP?
+a. Bảo mật
+b. Tương tác với HTTP
+c. Tìm đường đi tối ưu  ✓
+d. Vận chuyển tài nguyên theo khối
+
+Câu 2: Đâu không phải là tiêu chí để so sánh các nền tảng IoT?
+a. Số lượng thiết bị mạng  ✓
+b. Khả năng tích hợp với phần mềm của bên thứ 3
+c. Khả năng mở rộng
+d. An ninh dữ liệu
+
+Câu 3: Trong số các giao thức sau đây, giao thức nào không thuộc nhóm giao thức ứng dụng?
+a. MONS  ✓
+b. DDS
+c. MQTT
+d. AMQP
+
+Câu 4: Trong lập trình, đâu là phát biểu sai về Arduino IDE?
+a. Arduino IDE là chữ viết tắt của Arduino Integrated Development Environment
+b. Arduino IDE là 1 phần mềm giúp chúng ta nạp code đã viết vào board mạch
+c. Trong Arduino IDE không có công cụ Debugger (công cụ giúp tìm kiếm và sửa lỗi)  ✓
+d. Ngoài các board thuộc họ Arduino, Arduino IDE còn hỗ trợ lập trình với nhiều dòng vi điều khiển khác
+
+Câu 5: Trong điều khiển IoT với Board Arduino Uno R3... nếu trạng thái nút bấm (buttonState) là mức thế cao thì điều khiển bật đèn led (ledPin). Hỏi đoạn lệnh nào sau đây là đúng nhất?
+A. if (buttonState == HIGH) { Write(HIGH, ledPin); } else { Write (LOW,ledPin); }
+B. if (buttonState == HIGH) { Write.high(ledPin); } else { Write.low(ledPin); }
+C. if (buttonState == HIGH) digitalWrite(ledPin, HIGH); else digitalWrite(ledPin, LOW);  ✓
+D. if (buttonState == HIGH) Write.out(ledPin, HIGH); else Write.out(ledPin, LOW);
+
+Câu 6: Khi nói về giao thức Z-Wave trong IoT, phát biểu nào sau đây là đúng?
+a. Z-Wave cho phép mạng tối đa có 30 thiết bị (nút)
+b. Z-Wave cho phép kết nối điểm điểm trong phạm vi khoảng 30 mét  ✓
+c. Z-Wave cho phép kết nối điểm - đa điểm trong phạm vi lên tới 500 mét
+d. Z-Wave cho phép mạng tối đa có 50 thiết bị (nút)
+
+Câu 7: Trong mô hình tham chiếu IoT 7 lớp, lớp "Điện toán biên" ở lớp nào?
+a. Lớp 5
+b. Lớp 2
+c. Lớp 3  ✓
+d. Lớp 4
+
+Câu 8: Trong các phát biểu sau, phát biểu nào là đúng khi nói về giao thức IEEE 802.15.4?
+a. IEEE 802.15.4 có cung cấp các dịch vụ bảo mật, mã hóa và xác thực  ✓
+b. IEEE 802.15.4 có tốc độ truyền dữ liệu đạt tới 500Mbps ở băng tần 868MHz
+c. IEEE 802.15.4 cho phép mạng tối đa có 50 thiết bị (nút)
+d. IEEE 802.15.4 cho phép mạng tối đa có 30 thiết bị (nút)
+
+Câu 9: Trong lập trình Arduino, câu lệnh nào cho phép chương trình dừng trong thời gian 1 giây?
+a. delay(1000)  ✓
+b. delay(100)
+c. delay(0.01)
+d. delay(1)
+
+Câu 10: Đâu không phải là một ứng dụng IoT?
+a. Nhà thông minh
+b. Hệ thống thông tin quản lý  ✓
+c. Hệ thống giao thông thông minh
+d. Tự động hóa công nghiệp
+
+Câu 11: Địa chỉ IPv6 có chiều dài bao nhiêu bit?
+a. 64 bit
+b. 32 bit
+c. 48 bit
+d. 128 bit  ✓
+
+Câu 12: Đâu không phải là một tính năng mà một cảm biến tốt cần có?
+a. Không sửa đổi hiện tượng đo trong quá trình đo
+b. Có độ phân giải cao với các hiện tượng vật lý khác với hiện tượng mà nó đo  ✓
+c. Không nhạy với các hiện tượng vật lý khác với hiện tượng mà nó đo
+d. Có độ nhạy cao với hiện tượng mà nó đo
+
+Câu 13: Trong giao thức MQTT (Message Queue Telemetry Transport) không bao gồm thành phần nào?
+a. Publishers
+b. Administrator  ✓
+c. Broker
+d. Subscribers
+
+Câu 14: Đâu là mô tả đúng nhất về thuộc tính "Độ phân giải" của cảm biến IoT?
+a. Sự thay đổi tối thiểu của thông số đo được gây ra thay đổi có thể phát hiện được trong tín hiệu đầu ra
+b. Sự thay đổi tối thiểu trong hiện tượng mà cảm biến có thể phát hiện  ✓
+c. Ngưỡng giá trị cảm biến có thể phát hiện được sự xuất hiện của đối tượng cần quan sát
+d. Khoảng giá trị tối đa và tối thiểu của hiện tượng mà cảm biến có thể đo được
+
+Câu 15: Khi nói về các giao thức trong IoT có 2 phát biểu: PB1- Giao thức BLE hỗ trợ tốc độ dữ liệu cao hơn giao thức EPCglobal; PB2- Giao thức BLE hoạt động trong dải tần số 100MHz. Khẳng định nào sau đây là đúng?
+a. PB1 sai, PB2 đúng
+b. PB1 đúng, PB2 đúng
+c. PB1 đúng, PB2 sai  ✓
+d. PB1 sai, PB2 sai
+
+Câu 16: Đâu là phát biểu đúng khi nói về giao thức định tuyến cho mạng tổn hao năng lượng thấp (RPL)?
+a. RPL sắp xếp cấu trúc liên kết mạng theo biểu đồ định hướng đích (DODAG)  ✓
+b. RPL sắp xếp cấu trúc liên kết mạng theo topo dạng vòng (RING)
+c. RPL sử dụng thẻ bài để cấp phát quyền sử dụng đường truyền cho các node
+d. Trong RPL, một node muốn truyền dữ liệu đến một node khác thì bắt buộc phải đi qua gốc root
+
+Câu 17: Trong số các giao thức sau đây, giao thức nào không thuộc nhóm giao thức cơ sở hạ tầng?
+a. IEEE 802.15.4
+b. LTE-A
+c. XMPP  ✓
+d. 6LoWPAN
+
+Câu 18: Trong lập trình Arduino, câu lệnh nào không thuộc nhóm hàm Digital I/O?
+a. digitalWrite()
+b. digitalSerial()  ✓
+c. digitalRead()
+d. pinMode()
+
+Câu 19: Đâu không phải là nền tảng phần cứng phổ biến để chạy các ứng dụng IoT?
+a. Arduino
+b. Intel Galileo
+c. NFC  ✓
+d. Raspberry Pi
+
+Câu 20: Đâu là phát biểu sai khi nói về giao thức định tuyến cho mạng tốn hao năng lượng thấp (RPL)?
+a. RPL có hỗ trợ phương thức truyền dữ liệu: đa điểm đến điểm (MP2P)
+b. RPL có hỗ trợ phương thức truyền dữ liệu: điểm đến đa điểm (P2MP)
+c. RPL có hỗ trợ phương thức truyền dữ liệu: điểm đến điểm (P2P)
+d. RPL không hỗ trợ phương thức truyền dữ liệu: đa điểm đến điểm (MP2P)  ✓
+
+Câu 21: Mô hình tham chiếu IoT 3 lớp không bao gồm lớp nào?
+a. Lớp Kết nối  ✓
+b. Lớp Ứng dụng
+c. Lớp Thiết bị
+d. Lớp Mạng
+
+Câu 22: Lập trình với hàm map() trong Arduino. Cho min = 0, max = 600. Lệnh nào để ánh xạ kết quả đọc thành một trong bốn giá trị: 0,1,2 hoặc 3?
+a. int range = map(sensorReading, sensorMin, sensorMax, 0, 3);  ✓
+b. int range = map(sensorMin, sensorMax, sensorReading, 0, 3);
+c. int range = map.range(sensorReading, sensorMin, sensorMax, 4);
+d. int range = map.range(sensorMin, sensorMax, sensorReading, 4);
+
+Câu 23: Trong lập trình Arduino với Board Arduino Uno R3, sử dụng hàm nào để lấy giá trị của cảm biến điện trở quang?
+a. digitalRead()
+b. analogRead()  ✓
+c. sensor()
+d. Serial.print()
+
+Câu 24: Đâu là mô tả đúng nhất về thuộc tính "Độ nhạy" của cảm biến IoT?
+a. Sự thay đổi tối thiểu của thông số đo được gây ra thay đổi có thể phát hiện được trong tín hiệu đầu ra  ✓
+b. Khoảng giá trị tối đa và tối thiểu của hiện tượng mà cảm biến có thể đo được
+c. Giá trị tối đa của hiện tượng mà cảm biến có thể đo được
+d. Giá trị tối thiểu của hiện tượng mà cảm biến có thể đo được
+
+Câu 25: Đâu không phải là ưu điểm khi ứng dụng IoT vào trong các dây chuyền sản xuất?
+a. Đưa ra chế độ hoạt động tiết kiệm nhất
+b. Có nguy cơ bị đánh cắp dữ liệu  ✓
+c. Theo dõi lượng năng lượng tiêu thụ
+d. Đưa ra cảnh báo về sự cố hỏng hóc có thể xảy ra
+
+Câu 26: Đâu là phát biểu đúng về giao thức CoAP?
+a. CoAP sử dụng 2 loại tin nhắn: xác nhận, lỗi
+b. CoAP sử dụng 3 loại tin nhắn: có thể xác nhận, không thể xác nhận, lỗi
+c. CoAP có thể được chia thành 2 lớp con: lớp con nhắn tin, lớp con yêu cầu phản hồi  ✓
+d. CoAP có thể được chia thành 3 lớp con: lớp con nhắn tin, lớp con MAC, lớp con LLC
+
+Câu 27: Phát biểu nào sau đây là đúng khi nói đến lớp Quản lý dịch vụ (Service Management) trong mô hình tham chiếu IoT 5 lớp?
+a. Lớp này cung cấp các dịch vụ theo yêu cầu của khách hàng
+b. Lớp này quản lý các hoạt động và dịch vụ hệ thống IoT tổng thể
+c. Lớp này thực hiện việc xây dựng mô hình kinh doanh
+d. Lớp này cho phép các lập trình viên ứng dụng IoT làm việc với các đối tượng không đồng nhất  ✓
+
+Câu 28: Khi nói về giao thức Z-Wave trong IoT, phát biểu nào sau đây là sai?
+a. Z-Wave có cấu trúc lưới, các thiết bị (nút) được liên kết với một trung tâm
+b. Z-Wave hoạt động trong dải tần số 100MHz  ✓
+c. Z-Wave có nhược điểm là không tương thích được với nhiều thiết bị
+d. Tốc độ truyền dữ liệu của Z-Wave thấp
+
+Câu 29: Board Arduino Uno R3 sử dụng nguồn điện áp bao nhiêu volt?
+a. 110V
+b. 5V  ✓
+c. 220V
+d. 3V
+
+Câu 30: Địa chỉ website của cộng đồng Arduino Việt Nam là gì?
+a. http://ardn.vn/
+b. http://arduino.net.vn/
+c. http://ardvn.net/
+d. http://arduino.vn/  ✓
+
+Câu 31: Trong IoT, Giao thức AMQP là viết tắt của cụm từ:
+a. Annotation Message Query Protocol
+b. Application Mass Quota Protocol
+c. Advanced Message Queuing Protocol  ✓
+d. Application Message Queuing Protocol
+
+Câu 32: Khuyến nghị Trao đổi XML hiệu quả (EXI) đã chuyển đổi các thông điệp XML sang dạng nào để giảm băng thông?
+a. Website (html)
+b. XML nhị phân  ✓
+c. Comma Separated Values (.csv)
+d. Rich Text Format (rtf)
+
+Câu 33: Khi nói về giao thức IEEE 802.15.4 trong IoT, phát biểu nào sau đây là đúng?
+a. IEEE 802.15.4 chỉ hỗ trợ hoạt động ở 1 dải tần số 868MHz
+b. IEEE 802.15.4 hỗ trợ hoạt động ở 3 dải tần số 868MHz; 915MHz; 2400MHz  ✓
+c. IEEE 802.15.4 hỗ trợ hoạt động ở 3 dải tần số: 512MHz; 868MHz; 915MHz
+d. IEEE 802.15.4 hỗ trợ hoạt động ở 4 dải tần số
+
+Câu 34: Trong mô hình tham chiếu IoT 7 lớp, lớp "Khả năng kết nối (Connectivity)" không bao gồm chức năng nào sau đây?
+a. Chuyển mạch và định tuyến
+b. Chuyển đổi giữa các giao thức mạng
+c. Chuyển đổi tín hiệu tương tự số và số tương tự theo yêu cầu  ✓
+d. Truyền tải thông tin đáng tin cậy giữa các thiết bị lớp 1 với thiết bị lớp 2
+
+Câu 35: Trong lập trình Arduino, câu lệnh: Serial.begin(9600) có ý nghĩa là gì?
+a. Bắt đầu truyền Serial với nội dung khung dữ liệu có tốc độ baud 9600 bit/giây
+b. Bắt đầu truyền Serial với nội dung khung dữ liệu 9600 bit/khung
+c. Khai báo sử dụng truyền Serial với tốc độ baud là 9600  ✓
+d. Khai báo sử dụng truyền Serial với tối đa 9600 khung dữ liệu
+
+Câu 36: Trong số các công nghệ sau đây, công nghệ nào ít ảnh hưởng đến sự phát triển của IoT nhất?
+a. Truyền thông đa phương tiện  ✓
+b. Điện toán đám mây
+c. Trí tuệ nhân tạo
+d. Công nghệ vật liệu nano
+
+Câu 37: Đâu không phải là một phương pháp định danh (Identification) đối tượng trong IoT?
+a. IPv6
+b. Semantic  ✓
+c. uCode
+d. EPC
+
+Câu 38: Đâu là phát biểu sai khi nói về những ưu điểm của IPv6?
+a. Không gian địa chỉ rộng lớn hơn IPv4
+b. Cho phép cấu hình địa chỉ linh hoạt dựa trên 3 loại địa chỉ: unicast, multicast, broadcast  ✓
+c. Đơn giản hóa dạng thức của tiêu đề (header)
+d. Hỗ trợ bảo mật tốt hơn IPv4
+
+Câu 39: Trong mô hình tham chiếu IoT 7 lớp, lớp "Trừu tượng hóa dữ liệu" không bao gồm chức năng nào sau đây?
+a. Lập chỉ mục dữ liệu để cung cấp quyền truy cập ứng dụng nhanh chóng
+b. Giao tiếp với các thiết bị ở lớp 1  ✓
+c. Đảm bảo ngữ nghĩa nhất quán của dữ liệu giữa các nguồn
+d. Bảo vệ dữ liệu với xác thực và phân quyền thích hợp
+
+Câu 40: Đâu là phát biểu sai khi nói về Cơ cấu chấp hành (bộ truyền động/thiết bị chấp hành) IoT?
+a. Là một thiết bị có thể thay đổi một hoặc nhiều thuộc tính của một thực thể
+b. Có thể phân loại cơ cấu chấp hành IoT theo nguồn năng lượng mà chúng cần
+c. Là thiết bị quan sát một hoặc nhiều thuộc tính của một thực thể vật lý và chuyển đổi thành thông tin  ✓
+d. Một hệ thống IoT có thể không cần sử dụng đến cơ cấu chấp hành
+
+Câu 41: Trong lập trình Arduino, hàm nào được dùng để đọc giá trị từ các chân tín hiệu digital, trả về giá trị là HIGH hoặc LOW?
+a. pinMode()
+b. readDigital()
+c. digitalWrite()
+d. digitalRead()  ✓
+
+Câu 42: Trong mô hình tham chiếu IoT 7 lớp, lớp "Ứng dụng" ở lớp nào?
+a. Lớp 4
+b. Lớp 7
+c. Lớp 6  ✓
+d. Lớp 5
+
+Câu 43: Thứ tự đúng từ lớp 1 đến lớp 5 trong mô hình tham chiếu IoT 5 lớp là:
+a. Objects, Object Abstraction, Service Management, Application, Business  ✓
+b. Object Abstraction, Objects, Application, Service Management, Business
+c. Objects, Object Abstraction, Business, Service Management, Application
+d. Object Abstraction, Objects, Service Management, Business, Application
+
+Câu 44: Đâu không phải là hệ điều hành phổ biến để chạy các ứng dụng IoT?
+a. Android
+b. Contiki
+c. Tiny OS
+d. FPGA  ✓
+
+Câu 45: Trong IoT, khi nói về giao thức LTE-A có 2 phát biểu: PB1 - LTE-A hỗ trợ tốc độ dữ liệu upload lên tới 1Gbps; PB2 - LTE-A sử dụng phương pháp truy cập đường truyền CSMA/CD. Hỏi khẳng định nào đúng?
+a. PB1 sai, PB2 đúng
+b. PB1 sai, PB2 sai  ✓
+c. PB1 đúng, PB2 đúng
+d. PB1 đúng, PB2 sai
+
+Câu 46: Trong mô hình tham chiếu IoT 3 lớp, lớp 1 không bao gồm loại thiết bị nào?
+a. Bộ điều khiển
+b. Thiết bị liên kết mạng như Switch, Router  ✓
+c. Thiết bị chấp hành
+d. Cảm biến
+
+Câu 47: Khi nói về các giao thức trong IoT có 2 phát biểu: PB1 - BLE hiệu quả hơn về mức tiêu thụ năng lượng so với ZigBee; PB2 - BLE sử dụng phương pháp truy cập đường truyền TDMA. Khẳng định nào đúng?
+a. PB1 đúng, PB2 đúng  ✓
+b. PB1 sai, PB2 đúng
+c. PB1 sai, PB2 sai
+d. PB1 đúng, PB2 sai
+
+Câu 48: Đâu là phát biểu đúng về giao thức CoAP?
+a. Hiệp hội World Wide Web (W3C) đề xuất giao thức CoAP năm 2011
+b. CoAP định nghĩa một giao thức truyền tải web dựa trên REST  ✓
+c. CoAP là giao thức thuộc nhóm giao thức dịch vụ
+d. CoAP là giao thức thuộc nhóm giao thức cơ sở hạ tầng
+
+Câu 49: Trong lập trình Arduino với Board Arduino Uno R3, câu lệnh nào sau đây là sai?
+a. pinMode(Pin5, DIGITAL)  ✓
+b. pinMode(Pin5, INPUT_PULLUP)
+c. pinMode(Pin5, INPUT)
+d. pinMode(Pin5, OUTPUT)
+
+Câu 50: Đèn led nối chân số 6, nút bấm nối chân số 3. Khai báo nào sau đây là đúng?
+A. const int buttonPin = 3; const int ledPin = 6; void setup() { pinMode(buttonPin, INPUT); pinMode(ledPin, OUTPUT); }  ✓
+B. digitalRead buttonPin = 3; digitalWrite ledPin = 6; void setup() { pinMode(buttonPin); pinMode(ledPin); }
+C. const int buttonPin = 3; const int ledPin = 6; void setup() { pinMode(buttonPin); pinMode(ledPin); }
+D. digitalRead buttonPin = 3; digitalWrite ledPin = 6; void setup() { pinMode(buttonPin, INPUT); pinMode(ledPin, OUTPUT); }
+* Đáp án đúng được in đậm và đánh dấu ✓
